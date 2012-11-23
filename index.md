@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Thanksgiving 2012
-background: hawk_over_hatmandu.jpg
+background: hawk_over_kathmandu.jpg
 background-position: left center
 id: thanksgiving2012
 ---
