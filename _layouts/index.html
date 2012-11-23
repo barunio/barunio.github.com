@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+{% assign post=site.posts.first %}
+
+<div id="post">
+  <h1>{{ post.title }}</h1>
+  <a href='{{ site.posts.first.url }}' class='permalink'></a>
+  {{ content }}
+  {% include post_date.html %}
+</div>
+

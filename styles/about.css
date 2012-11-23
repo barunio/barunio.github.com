@@ -1,0 +1,32 @@
+---
+---
+html {
+  background-image: url({{site.baseurl}}/images/barun.jpg);
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#about {
+  position: absolute;
+  bottom: 100px;
+  right: 50px;
+}
+#about p {
+  font-size: 20px;
+  line-height: 30px;
+}
+h1 {
+  font-size: 40px;
+  line-height: 60px;
+}
+h1 + p {
+  margin-top: 0;
+}
+#footer {
+  display: none;
+}

@@ -1,0 +1,26 @@
+---
+---
+html {
+  background-image: url({{site.baseurl}}/images/hawk_over_kathmandu.jpg);
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#post {
+  margin: 100px auto 40px 40%;
+  width: 400px;
+  padding: 20px;
+  background: rgba(255,255,255,0.8);
+}
+
+#footer {
+  margin: 0 0 100px 40%;
+  width: 400px;
+  padding: 10px 20px;
+  background: rgba(240, 240, 255, 0.3);
+}

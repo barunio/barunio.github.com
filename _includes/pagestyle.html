@@ -1,0 +1,6 @@
+{% if page.custom_css %}
+  <link rel="stylesheet" href="{{site.baseurl}}/styles/{{ page.id | replace:'/','_' | replace_first:'_','' }}.css" />
+{% elsif page.index %}
+  {% assign first_post = site.posts.first %}
+  <link rel="stylesheet" href="{{site.baseurl}}/styles/{{ first_post.id | replace:'/','_' | replace_first:'_','' }}.css" />
+{% endif %}

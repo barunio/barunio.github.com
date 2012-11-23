@@ -3,17 +3,53 @@ body {
   font-size: 15px;
   line-height: 20px;
   color: #334;
-  text-shadow: -1px 0 0 rgba(255,255,255,0.4);
-}
-
-#thanksgiving2012 {
-  margin: 100px auto 100px 40%;
-  width: 400px;
-  padding: 20px;
-  background: rgba(255,255,255,0.8);
+  text-shadow: 0 1px 0 rgba(255,255,255,0.4);
 }
 
 h1 {
   font-family: 'Oswald', sans-serif;
-  color: 445;
+  color: #444450;
+  font-size: 26px;
+  line-height: 40px;
+  margin: 0;
+}
+
+#post {
+  position: relative;
+}
+
+#post .date {
+  color: #9999aa;
+}
+
+a, a:hover, a:visited, a:active, a:focus {
+  color: #007fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+a.permalink {
+  display: block;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 30px;
+  right: 20px;
+}
+a.permalink:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 10px;
+  height: 10px;
+  border: solid 5px #99a;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+a.permalink:hover:after {
+  border-color: #337;
 }
