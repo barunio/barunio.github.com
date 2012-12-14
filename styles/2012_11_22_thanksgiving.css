@@ -1,14 +1,41 @@
 ---
 ---
+@-webkit-keyframes thumb {
+	0% { -webkit-transform: translate(1px, 1px) rotate(0deg); }
+	10% { -webkit-transform: translate(-1px, -2px) rotate(-1deg); }
+	20% { -webkit-transform: translate(-1px, 0px) rotate(1deg); }
+	30% { -webkit-transform: translate(0px, 2px) rotate(0deg); }
+	40% { -webkit-transform: translate(1px, -1px) rotate(1deg); }
+	50% { -webkit-transform: translate(-1px, 2px) rotate(-1deg); }
+	60% { -webkit-transform: translate(-1px, 1px) rotate(0deg); }
+	70% { -webkit-transform: translate(1px, 1px) rotate(-1deg); }
+	80% { -webkit-transform: translate(-1px, -1px) rotate(1deg); }
+	90% { -webkit-transform: translate(1px, 1px) rotate(0deg); }
+	100% { -webkit-transform: translate(1px, -1px) rotate(-1deg); }
+}
+
+img
+{
+	-webkit-animation-name: thumb;
+	-webkit-animation-duration: 20ms;
+	-webkit-transform-origin:50% 50%;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+}
+
 html {
   background-image: url({{site.baseurl}}/images/hawk_over_kathmandu.jpg);
-  background-repeat: no-repeat;
-  background-position: left center;
-  background-attachment: fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  /* background-repeat: no-repeat; */
+  /* background-position: left center; */
+  /* background-attachment: fixed; */
+  /* -webkit-background-size: cover; */
+  /* -moz-background-size: cover; */
+  /* -o-background-size: cover; */
+  /* background-size: cover; */
+  -webkit-transition-property: background-position;
+  -webkit-transition-duration: 2s;
+  -webkit-transition-timing-function: linear;
+  background-position: -3px center, 50px center, -3px center, 50px center,-3px center, 50px center,-3px center, 50px center,-3px center, 50px center,-3px center, 50px center,-3px center, 50px center,-3px center, 50px center,-3px center, 50px center,-3px center, 50px center,-3px center, 50px center,-3px center, 50px center,-3px center, 50px center,-3px center, 50px center,-3px center, 50px center,;
 }
 
 #post {

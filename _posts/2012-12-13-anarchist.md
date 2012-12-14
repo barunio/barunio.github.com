@@ -1,7 +1,8 @@
 ---
 layout: post
-title: Thanksgiving 2012
+title: Title
 custom_css: true
+custom_js: true
 ---
 
 When I was a child, we never observed Thanksgiving according to any formal
@@ -10,7 +11,6 @@ get a turkey, ten-minute-stuffing, and canned cranberries from the grocer, but
 it would always be served alongside the standard Indian fare of rice, dal, and
 aloo gobi.
 
-![hawk]({{site.baseurl}}/images/hawk_over_kathmandu.jpg)
 
 This is to say that, even ignoring for a moment the romanticized
 history that surrounds it, this has never been the most relevant of holidays
@@ -72,4 +72,5 @@ happy life; and if you're able to do work you enjoy, with people you like,
 towards a positive goal, that's a pretty successful situation.
 
 Hope you have a great Thanksgiving.
+
 
