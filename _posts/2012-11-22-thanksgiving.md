@@ -2,6 +2,8 @@
 layout: post
 title: Thanksgiving 2012
 custom_css: true
+font1: Source+Sans+Pro
+font2: Oswald:700
 ---
 
 When I was a child, we never observed Thanksgiving according to any formal
