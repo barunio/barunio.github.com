@@ -1,0 +1,18 @@
+---
+layout: default
+title: Barun Singh
+font1: Vollkorn
+font2: Old+Standard+TT
+---
+
+<div id='indexpage'>
+  <h1>Hi, my name is Barun.<br>
+      I like to build things, and think about things.<br>
+      Not necessarily in that order.</h2>
+
+  <ul>
+    {% for post in site.posts %}
+    <li><a href="{{post.url}}">{{post.title}}</a>
+    {% endfor %}
+  </ul>
+</div>

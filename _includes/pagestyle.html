@@ -1,3 +1,7 @@
+{% unless page.id %}
+  <link rel="stylesheet" href="{{site.baseurl}}/styles/index.css" />
+{% endunless %}
+
 {% if page.custom_css %}
   <link rel="stylesheet" href="{{site.baseurl}}/styles/{{ page.id | replace:'/','_' | replace_first:'_','' }}.css" />
 {% elsif page.index %}

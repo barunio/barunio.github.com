@@ -1,0 +1,45 @@
+---
+---
+html {
+  background-image: url({{site.baseurl}}/images/index_bg.jpg);
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+#indexpage {
+  text-align: center;
+  width: 500px;
+  margin: 0 auto;
+  font-family: "vollkorn";
+}
+#indexpage h1 {
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 60px;
+  padding-bottom: 39px;
+  border-bottom: solid 1px #bbb;
+}
+#indexpage li {
+  display: block;
+  font-size: 15px;
+  line-height: 39px;
+  border-bottom: solid 1px #bbb;
+  background: rgba(255,255,255,0.1);
+  font-family: 'old standard tt';
+  text-transform: uppercase
+}
+#footer {
+  text-align: center;
+  line-height: 39px;
+  font-family: 'old standard tt';
+}
+
+a, a:visited, a:active, a:hover, a:focus {
+  color: #2D75D1;
+}
