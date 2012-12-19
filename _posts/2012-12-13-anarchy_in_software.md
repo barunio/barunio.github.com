@@ -16,8 +16,8 @@ font4: Ubuntu+Mono
     <a href="#a_concise_definition_of_anarchy">Anarchy defined</a>
     <a href='#anarchy_within_a_company_culture'>Company culture</a>
     <a href='#goals_of_a_software_development_process'>Process goals</a>
-    <a href='#the_fascist_approach_enforcing_testdriven_development'>A common
-    solution</a>
+    <a href='#a_standard_approach_enforcing_testdriven_development'>A standard
+    approach</a>
     <a href='#our_anarchist_approach'>Anarchist alternative</a>
     <a href='#the_rules_of_the_commons_atomic_commits'>Rules of the commons</a>
     <a href='#the_final_process'>Final process</a>
@@ -34,12 +34,11 @@ font4: Ubuntu+Mono
 
 ## Preface: philosophical constructs
 
-One of my favority things to do is contemplate questions that begin with *why*
-and *how* -- questions that often do not have clear answers, and have the power
+One of my favorite things to do is contemplate questions that begin with *why*
+and *how* -- questions that often don't have clear answers, and have the power
 to transform otherwise banal topics into subjects worthy of meaningful inquiry.
-This aligns with Zen teachings that any activity may present us with
-enlightenment if our perspective is trained. Everything matters, because
-everything is interconnected.
+This aligns with Zen teachings that any activity may be a path to
+enlightenment. Everything matters, because everything is interconnected.
 
 In other words, everything has a philosophy.
 
@@ -92,7 +91,7 @@ scales. The Buddhist economic principles that Schumacher observed in Burma in
 1955, for example, share many ideals of social anarchy. The recent Occupy
 protests provide a good example of anarchist decision-making. In small
 collectives with a culture of mutual respect, social anarchy is an attainable
-(and, I believe, desireable) goal.
+(and, I believe, desirable) goal.
 
 ## Anarchy within a company culture
 
@@ -167,7 +166,7 @@ Enforcing test-driven development as a formal process is, I believe, an
 undesirable approach because it reflects a fundamentally fascist ideology. This
 process requires developers to train their minds to operate in very specific
 ways. It therefore sets constraints not just on what a person does, but *how
-they do it*. In broad terms, a centralized authority is asserting conrtol over
+they do it*. In broad terms, a centralized authority is asserting control over
 the behavior of an individual within the privacy of their own mind and work.
 What else would you call this, if not fascism?
 
@@ -402,7 +401,7 @@ However, it is important to understand that there is, of course, a difference
 between the situation of a child, and an inexperienced adult. One may say that
 following a certain discipline is usually the most effective way to master an
 art, and one individual may certainly suggest to another that following that
-discipline might be beneficial to them.  However, it is incubment upon the
+discipline might be beneficial to them.  However, it is incumbent upon the
 individual who requires instruction to decide to relinquish control--no other
 may take that control from them.
 
@@ -430,7 +429,7 @@ strong connections between the two: logic yields mathematics, and epistemology
 guides how we think of scientific truth. Philosophy may be impersonal, but it
 also includes the most deeply personal experiences we may have: the
 contemplation of emptiness and reflections on the nature of the self. I count
-the numerous fundamental questions that quide our daily experiences to be
+the numerous fundamental questions that guide our daily experiences to be
 legitimately described as realms of philosophical inquiry: What is the basis
 for our social, political and economic systems? Why should we take one action
 instead of another? How are we to construct the systems we live and work in?
