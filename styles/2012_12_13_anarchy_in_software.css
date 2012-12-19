@@ -227,35 +227,37 @@ p span.note {
   overflow: hidden;
   margin: 0 -10px;
   font-size: 14px;
+  font-family: 'Lato', sans-serif;
 }
 
 #process_chart .row {
   position: relative;
   overflow: hidden;
-  padding: 10px 40px;
+  padding: 6px 40px;
   background: #092642;
 }
 #process_chart .row1 {
-  padding-bottom: 9px;
+  padding-bottom: 5px;
   border-bottom: solid 1px black;
 }
 #process_chart .row2 {
-  padding-top: 9px;
+  padding-top: 5px;
   border-top: solid 1px rgba(255,255,255,0.1);
 }
 #process_chart .step {
   display: block;
   width: 118px;
-  height: 40px;
+  height: 48px;
   padding: 20px;
   text-align: center;
-  margin: 10px;
+  margin: 14px 10px;
   border-radius: 5px;
   color: white;
   float: left;
   background: #3087DB;
   background-image:-webkit-radial-gradient(center, circle cover, #1C61A3 0%, #3087DB 100%);
   border: solid 1px #AFD3F7;
+  font-size: 16px;
 }
 #process_chart .row2 .step {
   float: right;
@@ -301,10 +303,10 @@ p span.note {
   margin-left: -10px;
 }
 #process_chart .row1 .arrow {
-  bottom: 55px;
+  bottom: 60px;
 }
 #process_chart .row2 .arrow {
-  top: 55px;
+  top: 60px;
 }
 
 #process_chart .arrow1 {
@@ -317,7 +319,7 @@ p span.note {
 #process_chart .arrow3 {
   z-index: 10;
   height: 30px;
-  top: 126px;
+  top: 134px;
   left: 485px;
 }
 #process_chart .arrow4 {

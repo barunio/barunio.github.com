@@ -81,3 +81,7 @@ a.permalink:after {
 a.permalink:hover:after {
   border-color: #337;
 }
+
+em {
+  font-style: italic;
+}

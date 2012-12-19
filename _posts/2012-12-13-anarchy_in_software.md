@@ -34,102 +34,114 @@ font4: Ubuntu+Mono
 
 ## Preface: philosophical constructs
 
-I spend a considerable amount of time thinking about interconnections, and
-enjoy asking questions that transform the banal into subjects worthy of
-meaningful contemplation. This is the basis of the Zen approach wherein one may
-achieve enlightenment through any activity. Everything matters, because
+One of my favority things to do is contemplate questions that begin with *why*
+and *how* -- questions that often do not have clear answers, and have the power
+to transform otherwise banal topics into subjects worthy of meaningful inquiry.
+This aligns with Zen teachings that any activity may present us with
+enlightenment if our perspective is trained. Everything matters, because
 everything is interconnected.
 
-Nothing is as small as it seems, and everything has a philosophy.
+In other words, everything has a philosophy.
 
-It was with this mindset that I gave a talk recently on the topic of software
-development. My stated goal was to present a process by which individuals on a
-software team might work together in an effective and sustainable manner.
+So recently, when I was to give a talk on the topic of software development, I
+chose to frame it in the context of an underlying philosophy. My stated goal
+was to present a very effective process we use at my company,
+[WegoWise](http://wegowise.com), to collaboratively produce high quality
+software. But wouldn't it be more interesting, I thought, to ask *why* we chose to
+have certain processes? Not the obvious and superficial why, but the deeper why
+that delves into sociology, psychology, and ethics. The why that asks about the
+actual *philosophy* behind what we do.
 
-In framing my discussion of this topic, I build upon an assertion that any
-organization of individuals forms a type of society. We seek to tackle
-relatively universal questions, applied to our specific domains: How are we to
-relate to one another? How do we define our values, and how do those values
-help us to achieve our goals? We should be able to find, in our answer to these
-question, a corresponding philosophy in how societies are governed.
+I think these *are* the interesting questions, because they have incredibly
+interesting answers.
 
-The process we follow for software development at my company,
-[WegoWise](http://wegowise.com), reflects a philosophy of social anarchy. We
-did not set out with a determination that "we must build an anarchy". Rather,
-our intention is guided merely by our shared values, and the anarchist ideology
-is simply an apt descriptor for that value system.
+We are, as far as our development processes go at least, social anarchists.
+This isn't a result of an explicit prior intention to apply an ideological
+label. I doubt, in fact, if many of my colleagues would be willing to call
+themselves anarchists. We merely built a set of processes based on shared
+values--values that happen to exemplify social anarchist philosophy.
 
 <p><a href='#sidebar1'>Sidebar: How do you define "philosophy"?</a></p>
 
 ## A concise definition of anarchy
 
-Anarchy is a grossly misunderstood term, so it is necessary to provide a brief
+Anarchy is grossly misunderstood, so it is necessary that I provide a brief
 definition. The fundamental principle of anarchist thought is that the state
 holds no moral authority over the individual, or over collectives of
 individuals. An anarchist therefore seeks to abolish the state, at all levels.
 It is, fundamentally, an anti-fascist ideology.
 
 Anarchy is often confused with chaos, under the belief that there can be no
-order without governance. In reality, anarchism proposes that there is a stable
-form of society wherein individuals govern themselves. There are many schools
-of thought with their own views on how this might happen. Social anarchy
-outlines a system that is guided by a social compact among people, predicated
-on community, reciprocity, and equality.
+order without some form of authority. Instead, anarchism proposes that there is
+a stable form of society wherein individuals govern themselves. There are many
+schools of thought on how this might happen, often in strong contrast with one
+another. Social anarchy outlines a system that is guided by a social compact
+among people, predicated on community, reciprocity, and equality.
 
-I am not aware of any historic examples of large anarchist societies. The
-principles of social anarchy have, however, been effective at small scales. The
-Buddhist economic principles that Schumacher observed in Burma in 1955, for
-example, share many ideals of social anarchy. The recent Occupy protests
-provide a good example of anarchist decision-making.
+I am not aware of any historic examples of large anarchist societies. In the
+case of social anarchy, it is easy to see why this is. The philosophy builds on
+the idea that individuals do, in fact, respect one another, and wish to work in
+a system of mutual aid. Individuals must possess a high level of equanimity for
+their fellow man. As the size of a society becomes larger and more diverse,
+this becomes an increasingly challenging requirement. Our cultures simply
+haven't evolved to the point where people can be expected to possess such
+traits at large scales.
 
-Any successful application of social anarchy is predicated on the assumption
-that individuals do, in fact, respect one another, and wish to work in a system
-of mutual aid. This is obviously challenging in large nation-states, since it
-requires individuals to possess a high degree of equanimity. In small
-collectives with a culture of mutual respect, however, it is an attainable
-goal.
+The principles of social anarchy have, however, been very effective at small
+scales. The Buddhist economic principles that Schumacher observed in Burma in
+1955, for example, share many ideals of social anarchy. The recent Occupy
+protests provide a good example of anarchist decision-making. In small
+collectives with a culture of mutual respect, social anarchy is an attainable
+(and, I believe, desireable) goal.
 
 ## Anarchy within a company culture
 
-My company, [WegoWise](http://wegowise.com), is a relatively small
-organization. Individuals know each other well, have shared goals, and similar
-philosophies within the domain in which we interact. For example, we believe
-that there is an artistry to the work that we do, and that there is real value
-in pursuing the more artful solution to a problem. If work is a vehicle for the
-mind, one ought to work in a manner that expands the mind, rather than dulls
-it.
+[WegoWise](http://wegowise.com) is a relatively small organization. Individuals
+know each other well, have shared goals, and similar philosophies within the
+domain in which we interact. For example, we believe that there is an artistry
+to the work that we do, and that there is real value in pursuing the more
+artful solution to a problem. If work is a vehicle for the mind, one ought to
+work in a manner that expands the mind, rather than dulls it.
 
 The culture of our team is defined in large part by how we operate as a
 collective. Ideas originate from all directions, decisions are made based on
 discussion and mutuality, and processes reflect a respect for the individual
 even as they respond to the needs of the whole.
 
-To be clear, we do not operate strictly according to an anarchist philosophy
-within the small society that is our company. For example, we have leadership
-roles and not all decisions are made by consensus. This is largely because we
-exist within a broader society that constrains what is feasible. However, to a
-significant extent, the principles that guide our culture and processes do
-reflect anarchist ideals. In certain key areas, such as our software
-development processes, we are able to apply those ideals to a greater extent.
+We have, therefore, the fundamentals prerequisites for a successful social
+anarchy. However, we also operate within a larger context that places
+constraints on what we can do. A business is it's own society from within, but
+it also has to act as a member of an external society that is decidedly not
+anarchist. So we impose a certain degree of structure, with leadership roles
+and reporting relationships, and executive decisions that may not always be
+made by consensus.
+
+In many domains, though, we have much more control. Software development is one
+of those domains, and within it, we may *choose* how we operate. And we choose
+to be anarchists.
 
 ## Goals of a software development process
 
 At last, to the topic at hand.
 
-In order to design a process, we must first lay out our design goals.
-Ultimately, we would like for our process to result in:
+Software is a collaborative field. Groups of people work on large systems,
+often with different ideas of how things should be done and without being able
+to know what all the moving parts are at any given time. We design processes
+to manage the complexity inherent in these dynamic environments.
 
-* Reliable application behavior
-* Maintainable codebase
-* Scalable process
-* Knowledgeable team
+We must design our processes to meet numerous goals. We require a reliable
+product; an application that behaves the way we expect it to behave. We must be
+able to improve that product over time, and scale our systems to meet higher
+demands. And we have to make sure to do this in a sustainable and enjoyable
+way--there must be joy in our work.
 
 We can meet these goals through standard practices: automated testing, pair
 programming, code reviews, regular communication and retrospectives. However,
-these practices do not, in and of themselves, define a process. How do we
+such practices do not, in and of themselves, define a process. How do we
 ensure such practices are followed in a consistent and meaningful fashion?
 
-I posit that we should like for our development process to:
+I posit that, in order to meet our design goals, we should like for our
+development process to:
 
 * Protect the codebase
 * Preserve developer flexibility
@@ -139,36 +151,37 @@ I posit that we should like for our development process to:
 ## A standard approach: Enforcing test-driven development
 
 A thoroughly automated test suite is one of the best ways to meet at least some
-of our final deliverables. Proper testing gives developers confidence that
-making changes in one section of a large and complex codebase will not break
-the application's behavior in an unexpected manner.
+of our goals. Proper testing gives developers confidence that making changes in
+one section of a large and complex codebase will not break the application's
+behavior in an unexpected manner. Tests allow developers to work without fear.
 
-Test-driven development is a common and effective approach to ensuring tests get
-written.  This paradigm enforces that one must write tests first, watch them
-fail, and then write the corresponding code. It can be taken one step further
-and include multiple layers of testing, and an outside-in approach wherein one
+Test-driven development is an effective approach to ensuring tests get
+written, and many organizations have therefore defined their processes around
+it. This paradigm enforces that one must write tests first, watch them
+fail, and then write the corresponding code. It can be taken a step further
+to include multiple layers of testing, and an outside-in approach wherein one
 writes higher-level tests before proceeding to low-level tests and finally to
 writing code.
 
-I have heard many organizations define their approach by stating that they
-strictly follow test-driven development. This process requires people to train
-their minds to operate in very specific ways--it sets constraints not just on
-what a person does, but *how they do it*. What is the ideology that best
-parallels this? A centralized organization asserts authority over the the
-behavior of an individual within the privacy of their own mind and work. In a
-larger societal setting, this would be described as fascism.
+Enforcing test-driven development as a formal process is, I believe, an
+undesirable approach because it reflects a fundamentally fascist ideology. This
+process requires developers to train their minds to operate in very specific
+ways. It therefore sets constraints not just on what a person does, but *how
+they do it*. In broad terms, a centralized authority is asserting conrtol over
+the behavior of an individual within the privacy of their own mind and work.
+What else would you call this, if not fascism?
 
 My objections go beyond the philosophical to the practical. Test-driven
 development is incredibly effective when we have very clearly defined goals and
 know ahead of time what we wish to accomplish. In these cases, writing software
-is pure implementation. Much of the time, however, software is more of a
-creative art. And the exploratory and artistic nature of the field is what
-creative individuals thrive on; perhaps even find transcendent at times.
-Requiring a strict procedure at every step disincentivizes exploration by
-adding overhead to every false step. For many individuals, it dampens the joy
-of discovery. These creative individuals are the most valuable assets any team
-can have. One ought not create a process that prevents them from acting at
-their best.
+is pure implementation. Much of the time, however, software is more of an art
+form. And the exploratory and artistic nature of the field is what creative
+individuals thrive on; perhaps even find transcendent at times.  Requiring a
+strict procedure at every step disincentivizes exploration because there is
+extra overhead to trying things that don't work. For many individuals, it
+dampens the joy of discovery. These creative individuals are the most valuable
+assets any team can have. One ought not create a process that prevents them
+from acting at their best.
 
 <div id='laws_quotes'>
 <blockquote>Societal laws
@@ -196,7 +209,7 @@ changes--whether they are trivial bug fixes or large features--are made on
 branches. These branches are then merged into `master` when they are ready to
 be deployed.
 
-This strategy provides enormous freedom to the individual, because it clearly
+Such a strategy provides enormous freedom to the individual, because it clearly
 defines boundaries:
 
 <blockquote id='master_branches'>
@@ -211,14 +224,15 @@ changes to this common resource. Style guides, code reviews, and QA processes
 are among the guidelines established by the group.
 
 So long as an individual is working on a separate branch, however, they can do
-*whatever they want*. This is because until they wish to merge into master, they
-aren't affecting anyone else in any way. So what moral basis do others have to
-force them to work according to some specific process?
+*whatever they want*. This is because until they want to merge into `master`,
+they aren't affecting anyone else in any way. So what moral basis do others
+have to force them to work according to some specific process?
 
 Social anarchism relies on the idea that it is possible for individuals to
 agree on acceptable social norms--the laws of society. Without a state agent,
 however, how are we to police individuals who decide to violate these norms?
-We take the following approach:
+The answer lies in our presumption that we are dealing with well-intentioned
+individuals who want to work together.
 
 If someone disagrees with the guidelines that have been established, we seek to
 understand the cause for their grievance, and give it an open public hearing.
@@ -230,28 +244,32 @@ approach.
 
 ## The rules of the commons: Atomic commits
 
-We have established the following 4 rules for accepting commits into `master`:
+We have established the following four rules for accepting commits into
+`master`:
+
 1. Every commit must make sense on its own
 2. Every commit must do something meaningful
 3. No commit may cause the test suite to fail
 4. Every commit must include thorough tests for all code changes
 
-Rules 1-4 define what I describe as atomic commits.
+Rules 1-4 define what I describe as atomic commits. Commits are atomic
+according to the original Greek notion of being self-enclosed and, in some
+sense, indivisible.
 
 ### Rules 1 &amp; 2: Communication and learning
 
 It is commonplace for a developer to want to understand the history of how and
 why a certain file, or a specific line of code, was modified. Reading through
 the history for a codebase ought to be somewhat like reading a Hemingway novel.
-Terse prose that flows together to tell a story. This rule encourages clear
+Terse prose that flows together to tell a story. This encourages clear
 communication and fosters learning.
 
 When a developer is working on a branch, they will commonly commit code that is
 a "work in progress". These incomplete changes make sense to the developer
-while they are working, but don't convey any intention to other developers who
-might want to understand the author's intention. Even the original author, when
-examining their own code six months into the future, is unlikely to understand
-what their exact thought process was in creating an incomplete set of changes.
+while they are working, but don't convey any intention to others who might want
+to understand the author's intention. Even the original author, when examining
+their own code six months into the future, is unlikely to understand what their
+exact thought process was in creating an incomplete set of changes.
 
 When every commit is self-enclosed, the author is able to write a concise
 summary of their higher-level goals in a way that conveys meaningful intent to
@@ -262,15 +280,14 @@ By specifying a restriction on the logical consistency of commits, we provide
 an avenue for developers to learn by reexamining their own work before
 presenting it for review. To clarify this idea, consider the following analogy:
 
-I step outside of my home and encounter a tourist who asks me for
-directions to a particular restaurant I dined at just a week ago. When I
-visited the restaurant, I got somewhat lost and took a long and roundabout
-path, eventually arriving at my destination. I could recollect for the tourist
-all of the twists and turns that I, in my confusion, took to get there. The
-directions would work, but would also be thoroughly confusing. Instead, I
-choose to map out the path in my head, understand where I went wrong, and
-provide directions based on the shortest route I can think of. In the process,
-I will have also improved my own understanding of the geography around me.
+I step outside of my home and encounter a tourist who asks me for directions to
+a particular restaurant I dined at just a week ago. I had gotten somewhat lost
+trying to get there, and took a roundabout path before eventually arriving at
+the restaurant. I could recollect for the tourist all of my twists and turns,
+but those would be thoroughly confusing directions. Instead, I choose to map
+out the path in my head, understand where I went wrong, and provide directions
+based on the clearest route I can think of. In the process, I find that I have
+also improved my own understanding of the geography around me.
 
 <div id='maps'>
 <img src='{{site.baseurl}}/images/2012-12-13/map1.png' alt='the long way'
@@ -295,11 +312,11 @@ to choose *how* they will meet that objective.
 
 In discussing test-driven development earlier, I stated that it is an effective
 approach to testing. In fact, developers on our team often choose to follow a
-test-driven approach while working. These rules certainly allow that. But they
-don't require it. It is also common to experiment with varying algorithms and
-design patterns, and settle upon one before writing any tests. The process of
-writing the tests may then reveal gaps in the earlier logic which prompt
-changes in the code and further iterations.
+test-driven approach while working. Our rules certainly allow that. But they
+don't *require* it. It is also common to experiment with varying algorithms and
+design patterns, and settle upon one before writing any tests at all. The
+process of writing the tests may then reveal gaps in the earlier logic which
+prompt changes in the code and further iterations.
 
 Regardless of how an individual chooses to meet the rules, the important point
 here is that the rules are placed on the *shared resources* where communal
@@ -339,9 +356,11 @@ take, not a hard-and-fast set of rules.
 
 ## Addendum
 
-The discussion above leaves out a number of details. After presenting this
+<p>The discussion above leaves out a number of details. After presenting this
 topic to a group of developers, I received many questions, some of which I will
-address here.
+address here. If you have any others, please <a id='email'>email
+me</a>.</p>
+
 
 <p><em class='question'>Does someone oversee this process?</em></p>
 
@@ -417,3 +436,7 @@ for our social, political and economic systems? Why should we take one action
 instead of another? How are we to construct the systems we live and work in?
 
 <a href='#post'>Back to top</a>
+
+<script>
+document.getElementById('email').href='mailto:barunio@gmail.com'
+</script>
