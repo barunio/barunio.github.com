@@ -2,7 +2,7 @@
 layout: post
 title: Social Anarchy in Software Development
 custom_css: true
-font1: Lato:100
+font1: Lato:300
 font2: Gilda+Display
 font3: Rambla:700
 font4: Ubuntu+Mono
