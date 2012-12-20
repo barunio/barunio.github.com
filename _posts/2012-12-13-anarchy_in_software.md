@@ -24,6 +24,10 @@ font4: Ubuntu+Mono
     <a href='#addendum'>Addendum</a>
   </div>
 
+  <div id="about">
+    Hi, I'm Barun<br>Founder &amp; CTO of <a href="wegowise.com">WegoWise</a>
+  </div>
+
   <div id='original'>
     <div class='title'>Original talk</div>
     <div class='date'>12/11/2012</div>
