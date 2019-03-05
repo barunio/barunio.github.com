@@ -1,0 +1,162 @@
+---
+---
+html {
+  /* background-color: #f2f2f2; */
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  color: rgba(0,0,0,0.77);
+  font-style: normal;
+}
+
+#github-banner {
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+h1 {
+  /* position: fixed; */
+  /* left: 60px; */
+  /* top: 60px; */
+  /* background: white; */
+  /* padding: 0 10px; */
+}
+
+#post #sidebar {
+  position: fixed;
+  left: 60px;
+  z-index: 10;
+  width: 220px;
+  top: 180px;
+  padding: 0;
+  border: solid 1px #eee;
+}
+
+#post .context-definition {
+  font-weight: bold;
+  background: #fffa65;
+  padding: 10px;
+}
+
+#post .toc_title {
+  font-size: 12px;
+  font-weight: bold;
+  color: #999;
+  background: #fafafa;
+  padding: 10px;
+}
+
+#post #markdown-toc {
+  margin: 0;
+  padding: 0;
+}
+
+#post #markdown-toc li {
+  padding: 10px;
+  border-bottom: solid 1px #eee;
+  list-style-type: none;
+  font-size: 12px;
+}
+
+#post #markdown-toc li li {
+  margin-left: 20px;
+  margin-bottom: 0;
+  font-weight: normal;
+  list-style-type: circle;
+  border: none;
+  padding: 0;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+#post li {
+  list-style-type: disc;
+}
+
+#post ul {
+  padding: 0 0 20px 20px;
+}
+
+pre {
+  font-size: 14px;
+  margin: 20px;
+  padding: 10px;
+  line-height: 20px;
+}
+
+.highlighter-rouge {
+  /* background: #fdf6e3; */
+  background-color: #f7f7f7;
+}
+
+h1 {
+  /* font-family: 'Oswald', sans-serif; */
+  color: #444450;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 60px;
+  margin: 0;
+}
+
+.author {
+  margin-bottom: 50px;
+  color: #888;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  margin: 40px 0 20px;
+}
+
+h3 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+#post {
+  margin: 40px auto 40px 340px;
+  width: 600px;
+  padding: 20px;
+  background: rgba(255,255,255,0.8);
+}
+
+#postdate {
+  color: #9999aa;
+}
+
+#footer {
+  margin: 0 0 100px 40%;
+  width: 400px;
+  padding: 10px 20px;
+  background: rgba(240, 240, 255, 0.3);
+}
+
+code {
+  padding: 0 3px;
+  font-size: 15px;
+}
+
+pre code {
+  padding: 0;
+  font-size: 14px;
+}
+
+h2 code {
+  font-size: 22px;
+}
+
+#footer {
+  margin: 0;
+  width: auto;
+  text-align: right;
+}

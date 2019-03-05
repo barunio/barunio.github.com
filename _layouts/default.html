@@ -5,6 +5,9 @@
     <title>{{ page.title }}</title>
     {% include fonts.html %}
     <link rel="stylesheet" href="{{site.baseurl}}/style.css" />
+    {% if page.code %}
+      <link rel="stylesheet" href="{{site.baseurl}}/styles/code.css" />
+    {% endif %}
     {% include pagestyle.html %}
   </head>
   <body>
@@ -13,4 +16,3 @@
     {% include footer.html %}
   </body>
 </html>
-
